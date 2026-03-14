@@ -315,6 +315,60 @@ code {
   gap: 1.2rem;
 }
 
+.education-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.education-item {
+  padding: 1.15rem;
+  border-radius: var(--radius-lg);
+  background: var(--panel-strong);
+  border: 1px solid rgba(31, 37, 33, 0.08);
+}
+
+.education-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.education-head h4 {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.education-degree,
+.education-date,
+.education-points {
+  color: var(--muted);
+}
+
+.education-degree {
+  margin: 0.45rem 0 0;
+  font-weight: 800;
+}
+
+.education-date {
+  margin: 0;
+  white-space: nowrap;
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: var(--accent-strong);
+}
+
+.education-points {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.education-points li + li {
+  margin-top: 0.45rem;
+}
+
 .facts-card {
   padding: 1rem;
   border-radius: var(--radius-lg);
@@ -481,6 +535,14 @@ code {
   .timeline-item {
     grid-template-columns: 1fr;
     gap: 0.25rem;
+  }
+
+  .education-head {
+    flex-direction: column;
+  }
+
+  .education-date {
+    white-space: normal;
   }
 }
 
