@@ -1,4 +1,4 @@
-# susie-suye.github.io
+# suye-qi.github.io
 
 Static personal website for a GitHub Pages domain.
 
@@ -17,8 +17,8 @@ Update the text, links, and sections in `index.html`.
 1. Commit and push this repository to `main`.
 2. Open the repository settings on GitHub.
 3. Check `Pages` and confirm the site is publishing from the `main` branch root.
-4. If this repository belongs to the GitHub user `Susie-Suye`, the free user-site repository name should be `susie-suye.github.io` and the published site URL will be `https://susie-suye.github.io/`.
-5. If you keep the repository name `Suye.github.io`, GitHub Pages will publish it as a project site instead, usually under `https://susie-suye.github.io/Suye.github.io/`.
+4. For the GitHub user `suye-qi`, the free user-site repository name should be `suye-qi.github.io`.
+5. After deployment completes, the published site URL should be `https://suye-qi.github.io/`.
 
 ## Local preview
 
